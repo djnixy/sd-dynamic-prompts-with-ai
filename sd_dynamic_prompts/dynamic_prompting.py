@@ -106,7 +106,7 @@ class Script(scripts.Script):
         callbacks.register_wildcards_tab(self._wildcard_manager)
 
     def title(self):
-        return f"Dynamic Prompts v{VERSION}"
+        return f"Dynamic Prompts with AI v{VERSION}"
 
     def show(self, is_img2img):
         return scripts.AlwaysVisible
